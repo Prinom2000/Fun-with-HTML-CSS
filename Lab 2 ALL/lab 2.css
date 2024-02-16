@@ -1,0 +1,147 @@
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.table-2{
+    border-color: green;
+    background-color: rgb(255, 251, 0);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.t3{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 3px solid rgb(123, 123, 123);
+    
+
+}
+
+.colored-square{
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px; 
+    height: 500px; 
+    background-color: green; 
+}
+
+.red_sq{
+    border:5px solid rgb(203, 203, 203);
+    border-style: double;
+    border-spacing: 50px;
+    width: 400px; /* Adjust width as needed */
+        height: 400px; /* Adjust height as needed */
+        background-color:red; /* Change color as needed */
+        position: absolute; /* Position relative to the outer square */
+        top: 28%; /* Move the square halfway down the outer square */
+        left: 50%; /* Move the square halfway across the outer square */
+        transform: translate(-50%, -50%); /* Center the square */
+}
+
+.yellow_sq{
+    border:5px solid rgb(203, 203, 203);
+    border-style: double;
+    border-spacing: 50px;
+    border:5px solid rgb(203, 203, 203);
+    border-style: double;
+    border-spacing: 50px;
+    width: 300px; 
+    height: 300px; 
+    background-color:yellow; 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+.blue_sq{
+    border:5px solid rgb(203, 203, 203);
+    border-style: double;
+    border-spacing: 50px;
+    width: 200px; 
+    height: 200px; 
+    background-color:blue; 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+.inner_blue_sq{
+    border:3px solid rgb(255, 255, 255);
+    width: 15px; 
+    height: 15px; 
+    background-color:blue; 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+.wt{
+    width: 6px; 
+    height: 6px; 
+    background-color:white; 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+.t5{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    border: 3px solid rgb(123, 123, 123);
+    
+}
+
+.t6{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.t7{
+    border-spacing: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.t71{
+    background-color: rgb(92, 188, 156);
+    text-align: center;
+}
+
+#col{
+    background-color: rgb(92, 188, 156);
+}
+
+#pm{
+    width: 81px; 
+}
+
+#middle{
+    text-align: center;
+}
+
+.t9{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    border-collapse: collapse;
+    width: 50%;
+    th, td {
+        padding: 8px;
+        text-align: left;
+        border: 1px solid #ddd;
+     }
+     th {
+        background-color: #f2f2f2;
+     }
+}

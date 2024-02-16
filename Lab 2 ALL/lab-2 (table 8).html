@@ -1,0 +1,55 @@
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 10px;
+}
+.outertable td{
+    border-color: blue;
+}
+.innertable{
+    margin: 2px;
+}
+.innertable td{
+    border-color: green;
+}
+</style>
+</head>
+<body>
+
+<center>
+<table style="border: 5px solid blue;" class="outertable" >
+
+    <tr>
+        <td >
+            I am outer table
+        </td>
+        <td style="padding: 0;">
+            <table style="border: 6px solid green;" class="innertable">
+                <tr>
+                    <td>I am the first row of first table</td>
+                </tr>
+                <tr>
+                    <td>I am the second row of first table</td>
+                </tr>
+                <tr>
+                    <td>I am the third row of first table</td>
+                </tr>
+                <tr>
+                    <td>I am the fourth row of first table</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+
+
+
+
+</table>
+</center>
+</body>
+</html>
