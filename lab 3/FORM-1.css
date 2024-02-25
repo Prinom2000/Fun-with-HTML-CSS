@@ -1,0 +1,25 @@
+.f1{
+    
+    /* text-align: center; */
+}
+/* body{
+    border: solid;
+    border-color: black;
+} */
+input{
+    align-items: center;
+
+}
+
+.pm{
+    border-style:solid;
+    width: 30%;
+    
+}
+
+.botton{
+    text-align: center; 
+}
+.pm p{
+    width: 1000px;
+}

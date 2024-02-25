@@ -1,0 +1,48 @@
+.header{
+    background-color: orange;
+}
+.footer{
+    background-color: orange;
+    text-align: right;
+
+}
+.pm{
+
+    border-style :solid ;
+    border-color: rgb(69, 55, 82);
+    width: 30%;
+    background-color: rgb(86, 71, 117);
+    color: rgb(211, 211, 63);
+    justify-content: center;
+    align-items: center;
+    
+}
+
+form{
+    padding: 1px;
+    
+}
+.head{
+    background-color: orange;
+    margin: 4px 2px;
+}
+
+label{
+    margin-right: 10px;
+    width: 150px;
+    display: inline-block;
+}
+
+input[type=submit]{
+    background-color: green;
+    padding: 8px 16px;
+    border: none;
+    margin: 4px 2px;
+}
+
+input[type=reset]{
+    background-color:red;
+    padding: 8px 16px;
+    border: none;
+    margin: 4px 2px;
+}
