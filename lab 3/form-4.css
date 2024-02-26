@@ -1,0 +1,39 @@
+.add{
+    float: left;
+    /* width: 25%; */
+    /* margin-top: 6px; */
+  }
+
+  .footer{
+    text-align:center;
+}
+
+.pm{
+    border-style :solid ;
+    border-color: rgb(0, 0, 0);
+    padding: 10px;
+    width: 1050px;
+    margin-left: 15%;
+}
+
+label{
+    margin-right: 10px;
+    width: 150px;
+    display: inline-block;
+}
+.form{
+    background-color: rgb(95, 95, 194);
+    color: aliceblue;
+    width: 850px;
+    margin-left: 100px;
+    border: solid;
+    border-color: rgb(45, 45, 187);
+}
+
+form{
+    padding: 20px;
+}
+
+table{
+    margin-left:160px;
+}
