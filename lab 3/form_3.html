@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form_3</title>
+    <link rel="stylesheet" href="form-3.css">
+</head>
+
+<body>
+
+    <div  class="pm">
+
+        <div class="head">
+            <h2>Workshop Registration</h2>
+            <div class="more">
+                <a href="https://github.com/Prinom2000" target="_blank">Moer Action🔻</a>
+            </div>
+        </div>
+
+
+        <div>
+            <p><u>Register now while seats are aveilable</u></p><br>
+
+            <form action="">
+                <div class="left">
+                    <label for="fname">First Name: *</label>
+                    <input type="text" name="fname" id="fname" size="45" required><br><br>
+                    <label for="lname">Last Name: *</label>
+                    <input type="text" name="lname" id="lname" size="45" required><br><br>
+                    <label for="Company">Company: *</label>
+                    <input type="text" name="Company" id="Company" size="45" required><br><br>
+
+                    <div class="add"> <label for="add" class="l">Address: *</label> </div>
+                    <textarea name="add" id="add" rows="10" cols="30" aria-setsize="45" required></textarea><br><br>
+
+                    <label for="city">City: </label>
+                    <input type="text" name="city" id="city" size="45"><br><br>
+                    <label for="state">State / Reion:</label>
+                    <select name="state" id="state">
+                        <option value="" aria-setsize="45">-Select-</option>
+                        <option value="Asham" aria-setsize="45">Asham</option>
+                        <option value="Tripura" aria-setsize="45">Tripura</option>
+                    </select><br><br>
+                    <label for="country">Country:</label>
+                    <select name="country" id="country">
+                        <option value="" aria-setsize="45">-Select-</option>
+                        <option value="BD" aria-setsize="45">BD</option>
+                        <option value="India" aria-setsize="45">India</option>
+                        <option value="Pakistan" aria-setsize="45">Pakistan</option>
+                    </select><br><br>
+
+                    <label for="email">Email: *</label>
+                    <input type="email" name="email" id="email" size="45" required><br><br>
+                    <label for="num">Phone Number: *</label>
+                    <input type="number" name="num" id="num" size="60" required>
+                </div>
+
+                <div class="right">
+                    <p><u>Lunch</u></p>
+                    <label for="mael">Meal Preference: </label>
+                    <select name="meal" id="meal">
+                        <option value="Vegetarian" aria-setsize="45">Vegetarian</option>
+                        <option value="Non-Vegetarian" aria-setsize="45">Non-Vegetarian</option>
+                    </select><br><br>
+
+                    <p><u>Payment Details</u></p>
+                    <label for="pay">Payment Mode</label>
+                    <input type="checkbox" name="pay" id="Cash"> Cash <br>
+                    <input type="checkbox" name="pay" id="Nagad"> Nagad <br>
+                    <input type="checkbox" name="pay" id="Bkash"> Bkash <br><br>
+
+                    <label for="dd">DD Change no. </label>
+                    <input type="text" name="dd" id="dd" size="45"><br><br>
+                    <label for="drawn">Drawn on(Bank Name): </label>
+                    <input type="text" name="drawn" id="drawn" size="45"><br><br>
+                    <label for="at">Payable at: </label>
+                    <input type="text" name="at" id="at" size="45"><br><br>
+
+                </div>
+
+                <div class="footer">
+                    <input  type="submit" value="Submit" >
+                    <input  type="reset" value="Reset">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
