@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form-4</title>
+    <link rel="stylesheet" href="form-4.css">
+</head>
+
+<body>
+
+    <div class="pm">
+        <h1 style="text-align: center; color: rgb(95, 95, 194);"><U>STUDENT REGISTRATION FORM</U></h1><br>
+
+        <div class="form">
+            <form action="">
+                <label for="fname">First name</label>
+                <input type="text" id="fname" name="fname" onkeydown="return /[a-zA-Z]/i.test(event.key)" size="20"
+                    maxlength="30"> (max 30 character a-z and A_Z)<br><br>
+                <label for="lname">Last name</label>
+                <input type="text" id="lname" name="lname" onkeydown="return /[a-zA-Z]/i.test(event.key)" size="20"
+                    maxlength="30"> (max 30 character a-z and A_Z)<br><br>
+                <label for="birthday">Date of Birth</label>
+                <input type="date" id="birthday" name="birthday" size="20"><br><br>
+                <label for="email">E-mail </label>
+                <input type="email" name="email" id="email" size="20"><br><br>
+                <label for="phone">Mobile Number </label>
+                <input type="number" id="phone" name="phone" size="20" maxlength="10"> (10 digit number)<br><br>
+                <label for="gender">Gender </label>
+                Male <input type="radio" name="gender" id="Male">
+                Female <input type="radio" name="gender" id="Female"> <br><br>
+                <div class="add"> <label for="add" class="l">Address</label> </div>
+                <textarea name="add" id="add" rows="5" cols="50" aria-setsize="20"></textarea><br><br>
+                <label for="city">City</label>
+                <input type="text" id="city" name="city" onkeydown="return /[a-zA-Z]/i.test(event.key)" size="20"
+                    maxlength="30"> (max 30 character a-z and A_Z)<br><br>
+                <label for="pin">Pin Code </label>
+                <input type="number" id="pin" name="pin" size="20" maxlength="6"> (6 digit number)<br><br>
+                <label for="state">State</label>
+                <input type="text" id="state" name="state" onkeydown="return /[a-zA-Z]/i.test(event.key)" size="20"
+                    maxlength="30"> (max 30 character a-z and A_Z)<br><br>
+                <label for="country">Country</label>
+                <select name="country" id="country">
+                    <option value="India" aria-setsize="45">India</option>
+                    <option value="BD" aria-setsize="45">BD</option>
+                    <option value="Pakistan" aria-setsize="45">Pakistan</option>
+                </select><br><br>
+                <label for="Hobbies">Hobbies </label>
+                Drawing<input type="checkbox" name="Hobbies" id="Drawing">
+                Singimg<input type="checkbox" name="Hobbies" id="Singimg">
+                Dancing<input type="checkbox" name="Hobbies" id="Dancing">
+                Sketching<input type="checkbox" name="Hobbies" id="Sketching"> <br>
+                <label></label>
+                Others<input type="checkbox" name="Hobbies" id="Others"> <input type="text" name="Hobbies"
+                    id="Others"><br><br>
+                <label for="Qualification" >Qualification </label>
+
+                <table>
+                    <tr>
+                        <th>SL.No.</th>
+                        <th>Examination</th>
+                        <th>Board</th>
+                        <th>Percentage</th>
+                        <th>Year of passing</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Class X</td>
+                        <td><input type="text" id="Board" name="Board" size="20" maxlength="10"></td>
+                        <td><input type="text" id="Percentage" name="Percentage" size="20" maxlength="10"></td>
+                        <td><input type="number" id="Board" name="Board" size="20" maxlength="4"></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Class XII</td>
+                        <td><input type="text" id="Board" name="Board" size="20" maxlength="10"></td>
+                        <td><input type="text" id="Percentage" name="Percentage" size="20" maxlength="10"></td>
+                        <td><input type="number" id="Board" name="Board" size="20" maxlength="4"></td>
+                    </tr>
+
+                    <tr>
+                        <td>3</td>
+                        <td>Graduation</td>
+                        <td><input type="text" id="Board" name="Board" size="20" maxlength="10"></td>
+                        <td><input type="number" id="Percentage" name="Percentage" size="20" maxlength="10"></td>
+                        <td><input type="number" id="Board" name="Board" size="20" maxlength="4"></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Masters</td>
+                        <td><input type="text" id="Board" name="Board" size="20" maxlength="10"></td>
+                        <td><input type="text" id="Percentage" name="Percentage" size="20" maxlength="10"></td>
+                        <td><input type="number" id="Board" name="Board" size="20" maxlength="4"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td style="text-align: center;">
+                            (10 Char max)
+                        </td>
+                        <td style="text-align: center;">
+                            (upto 2 decimal)
+                        </td>
+                    </tr>
+
+                </table>
+
+
+
+                <label for="Course">Courses <br>Applied For</label>
+                BCS<input type="radio" name="Course" id="BCA">
+                B.Com<input type="radio" name="Course" id="B.Com">
+                B.Sc<input type="radio" name="Course" id="B.Sc">
+                B.A<input type="radio" name="Course" id="B.A"><br><br>
+
+                <div class="footer">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </div>
+
+            </form>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
