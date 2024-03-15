@@ -1,26 +1,32 @@
 .split {
+
     height: 100%;  /* pura page vartical nia*/
-    width: 40%;
+    width: 50%;
     position: fixed;
     top: 0;
     color: aliceblue;
+    overflow: auto;
+
   }
   
   /* Control the left side */
   .left {
+    /* top: 20px; */
     left: 0;
-    background-color: #6c5dad;
+    background-color: #127ebd;
+    position:fixed;
   }
   
   /* Control the right side */
   .right {
     right: 0;
+    color: #000000;
   }
   
   /* If you want the content centered horizontally and vertically */
-  .prinom {
+  .pic {
     position: absolute;
-    top: 25%;
+    top: 10px;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -44,3 +50,39 @@
 .contact{
     text-align: left;
   }
+
+ 
+.h1, h2,h3{
+  margin: 2px;
+}
+
+.bar{
+  /* text-align: center; */
+  margin-left: 3%;
+  background-color: #93d2e2;
+  padding: 10px;
+}
+
+.bio{
+  text-align: justify;
+  /* right: 2%; */
+  padding: 3%;
+}
+
+.logo{
+  /* width: 5%;
+    float: left;
+    padding: 2%; */
+}
+
+.lekha{
+  /* margin-left:10%; */
+  
+}
+
+.table{
+  margin-left: 5%;
+  background-color: #bcdbe0;
+  /* text-align: center; */
+  padding: 6px;
+}
